@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+
+    <string name="saludo_f1">Hello F1 lovers!</string>
+    <string name="saludo_equipo">Greetings from the development team</string>
+    <string name="autores">RaveenSoft</string>
+
+</resources>

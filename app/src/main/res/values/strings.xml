@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="saludo_f1">Hola amantes de la F1!</string>
+    <string name="saludo_equipo">Los saluda el equipo de desarrollo</string>
+    <string name="autores">RaveenSoft</string>
+</resources>
