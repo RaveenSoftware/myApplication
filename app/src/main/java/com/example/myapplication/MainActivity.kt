@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.os.Build
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -16,9 +17,12 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
 import com.example.myapplication.ui.theme.MyApplicationTheme
 import com.example.myapplication.R
 import androidx.compose.ui.res.stringResource
+import androidx.core.view.WindowCompat
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -100,4 +104,11 @@ fun GreetingPreview() {
     }
 }
 
+//Definiendo una data class para los pilotos
+
+data class Piloto(
+    val nombre: String,
+    val edad: Int,
+    val imagenRes: Int // drawable resource
+)
 
