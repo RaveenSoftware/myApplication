@@ -112,3 +112,11 @@ data class Piloto(
     val imagenRes: Int // drawable resource
 )
 
+val listaPilotos = listOf(
+    Piloto("Lewis Hamilton", 39, R.drawable.hamilton), //Ruta de la imagen
+    Piloto("Max Verstappen", 26, R.drawable.verstappen),
+    Piloto("Fernando Alonso", 42, R.drawable.alonso),
+    Piloto("Charles Leclerc", 26, R.drawable.leclerc)
+    //Se agregan los de la temporada :P
+)
+
