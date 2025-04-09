@@ -56,4 +56,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.5.1")
+    implementation("androidx.compose.ui:ui-text-google-fonts:1.5.0") // o la versión más reciente
+
+
 }

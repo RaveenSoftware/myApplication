@@ -19,10 +19,13 @@ import androidx.compose.ui.unit.sp
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
-import com.example.myapplication.ui.theme.MyApplicationTheme
+
+import com.example.ui.theme.AppTypography
 import com.example.myapplication.R
 import androidx.compose.ui.res.stringResource
 import androidx.core.view.WindowCompat
+import com.example.compose.MyApplicationTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -113,10 +116,13 @@ data class Piloto(
 )
 
 val listaPilotos = listOf(
-    Piloto("Lewis Hamilton", 39, R.drawable.hamilton), //Ruta de la imagen
-    Piloto("Max Verstappen", 26, R.drawable.verstappen),
-    Piloto("Fernando Alonso", 42, R.drawable.alonso),
-    Piloto("Charles Leclerc", 26, R.drawable.leclerc)
+    Piloto("Lewis Hamilton", 39, R.drawable.formulaw), //Ruta de la imagen
+    Piloto("Max Verstappen", 26, R.drawable.formulaw),
+    Piloto("Fernando Alonso", 42, R.drawable.formulaw),
+    Piloto("Charles Leclerc", 26, R.drawable.formulaw)
     //Se agregan los de la temporada :P
 )
+
+
+
 
